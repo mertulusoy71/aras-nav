@@ -1,0 +1,58 @@
+---
+title: "Türkiye'de Nüfus Artış Hızı"
+author: 
+  - Mert Ulusoy[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 20080304, [Github Repo](https://github.com/mertulusoy71/arasinav.git)
+
+
+# Giriş
+Projemde Türkiyenin 2007'den günümüze kadar yaşamış olduğu nüfus gelişimini ele aldım.Bu nüfus gelişimini şehirlere indirgeyerek hangi şehir ne kadar nüfus artışı veya azalışı yaşamış bunu gözlemledim. Veri setimi Türkiye İstatistik Kurumundan(https://www.tuik.gov.tr/) aldım.Türkiye 2007'den bu yana önemli ölçüde nüfus artışı yaşadı.Tüik verilerine göre 2020 yılında Türkiye nüfusu 83,6 milyona ulaştı. Nüfusumuz bu seviyelere gelirken tabii ki sabit bir hızda seyretmedi. Nüfus artış hızı son 10 yılda düşüş gösterdi 2019-2020 yıllarında ise son 10 yılın en düşük seviyesini gördü, tabii 2019 yılında dünya genelinde ortaya çıkan pandemi koşulları nüfus artış hızını önemli ölçüde etkiledi.Nüfus artış hızı doğum oranı, ölüm oranı,ortalama yaşam süresi ve göç gibi fkatörlere bağlıdır.Doğum oranındaki değişiklikler  özellikle doğum kontrol yöntemleri kullanımı, kadın eğitim düzeyi,kadınların çalışma hayatındaki yeri, evlenme yaşı ve sağlık hizmetleri gibi faktörlere bağlıdır.Ayrıca TÜrkiye bulunduğu konumdan dolayı çokça göç alan bir ülkedir. Böylece Türkiye'nin nüfus artış hızı göçten de nasibini almaktadır.Türkiye'de illerin nüfus artış hızına sağladığı fayda birçokfaktöre bağlıdır ve il bazında değişiklik göstermektedir.Özellikle büyük şehirlerde nüfus artış hızı ,ekonomik büyüme ve iş imkanları açısından önemli bir etkiye sahiptir.
+
+
+
+
+
+## Çalışmanın Amacı
+Çalışmanın amacı Türkiye'de nüfus artış hızı hangi faktörlerden etkilenir ve her il nüfus artış hızına ne kadar katkı yapmıştır? sorusuna  cevap aramaktır.Bilindiği üzere gelişmiş ülkeler nüfus politikalarını etkin olarak kullanmaktadır.Dünya ülkelerinin bazıları nüfus artış hızını baskılamayı amaçlarken bazıları da arttırmaya yönelik politikalar üretmektedir.Ülkemiz için de bu çalışma oldukça önemlidir.Türkiye geleceğini planlarken nüfus artış hızını da plana dahil etmelidir.
+
+## Literatür 
+Geçmişte avcı toplayıcı kabilelerden, günümüzün modem toplumlarına gelene kadar nüfus ve onun giderek artan miktarı, dünyanın en önemli sorunlarından biri olmuştur. Hatta bazı dönemlerde artan nüfusa karşılık dünya kaynaklarının yetmeyeceği düşüncesi, birtakım önlemler almayı, bu konularda çeşitli fikirler üretmeyi zorunlu kılmıştır.[@article] Nüfus artışına paralel olarak bir diğer önemli konu da hızlı kentleşmedir. Örneğin sanayileşmiş ülkelerde nüfusun% 75'i şehirde yaşıyor. Nüfusun sadece yaklaşık% 33'ü gelişmekte olan ülkelerdeki şehir merkezlerinde yaşamaktadır. Ülkeler. Ancak dünya nüfusunun %58'inin şehirlerde yaşayacağı tahmin edilmektedir.Bu çalışmada zipf yasası kullanılarak şehir dağılımları incelenmiştir.Makalede zipf yasaının ve regresyonuna bağlı ampirik analiz sonuçları da yer almaktadır.[@doi:10.1080/09654313.2012.722922] Türkiye'de doğurganlık,ölüm oranları ve nüfus artışına etki eden diğer faktörler ele alınarak yazılmış bir makale.[@10.2307/2732622]Dünyanın her tarafında olduğu gibi Türkiye'de de nüfus geçmişten günümüze artış göstermiştir.Nüfus gelişiminde doğumlar,ölümler ve gözler etkili olur.Türkiyenin nüfus gelişimi farklı dönemlere ayrılarak incelenebilir.Bir ülkedeki nüfus gelişiminde doğumlar ve ölümlerden yanında özellikle farklı nüfus yoğunluk alanlarının oluşumunda göçler etkili olmaktadır.Ülkemiz cumhuriyetin ilanından itibaren çok hızlı bir göç hareketi yaşanmaktadır.[@csahin2006turkiye].
+ 
+
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
